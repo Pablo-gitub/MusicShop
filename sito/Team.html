@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta name="author" content="Paolo Pietrelli, Luca Spinosi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+        <title>MyEcommerce - Home</title>
+
+        <meta charset="utf-8">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+</html>
+
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+
+    
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <H1 class="navbar-header text-white mr-4">Music Shop</H1>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/><path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/></svg> Home<span class="sr-only glyphicon glyphicon-home">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg> Profilo</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg> Team</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2v13h1V2.5a.5.5 0 0 0-.5-.5H11zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/></svg> Login</a>
+        </li>
+        <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2v13h1V2.5a.5.5 0 0 0-.5-.5H11zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/></svg> Login</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16"><path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/><path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/></svg> Registrati</a>
+        </div>
+        </li>-->
+    </ul>
+   
+    </div>
+        
+    <div class="btn-group dropleft float-right">
+        <button class="btn btn-outline-light dropdown-toggle m-2" type="button" id="cart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg></button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-item">
+                <img class="float-left mr-2" src="../upload/Physical_graffiti.jpg" alt="Led Zeppelin, Physical Graffiti record" style="width:20%">
+                <p>Led Zeppelin, Physical Graffiti</p>
+                <p>23,50€</p>
+                <button class="btn btn-danger fa fa-close">x</button>
+            </div>
+            <div class="dropdown-item">
+                <img class="float-left mr-2" src="../upload/Physical_graffiti.jpg" alt="Led Zeppelin, Physical Graffiti record" style="width:20%">
+                <p>Led Zeppelin, Physical Graffiti</p>
+                <p>23,50€</p>
+                <button class="btn btn-danger fa fa-close">x</button>
+            </div>
+        </div>
+    </div>
+</nav>
+<body>
+    <div class="row col-12">
+        <div id="list-example" class="list-group col-12 col-md-4 col-xl-3 pt-2">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
+        </div>
+      <div data-spy="scroll" data-target="#list-example" data-offset="0" class="list-group scrollspy-example col-12 col-md-8 col-xl-9">
+        <div class="list-group-item mt-2 mb-2" id="list-item-1">
+            <h4>Item 1</h4>
+            <img class="float-left mr-2" src="../upload/Physical_graffiti.jpg" alt="Led Zeppelin, Physical Graffiti record" style="width:20%">
+            <p>iejhvnpotivnochro poi ouhmoczflijavoncin oisoiusc irdutpowv oistgps ojpso wilu</p><br>
+            <p>iejhvnpotivnochro poi ouhmoczflijavoncin oisoiusc irdutpowv oistgps ojpso wilu</p><br>
+            <p>iejhvnpotivnochro poi ouhmoczflijavoncin oisoiusc irdutpowv oistgps ojpso wilu</p><br>
+            <p>iejhvnpotivnochro poi ouhmoczflijavoncin oisoiusc irdutpowv oistgps ojpso wilu</p><br>
+            <p>iejhvnpotivnochro poi ouhmoczflijavoncin oisoiusc irdutpowv oistgps ojpso wilu</p><br>
+            <p>iejhvnpotivnochro poi ouhmoczflijavoncin oisoiusc irdutpowv oistgps ojpso wilu</p><br>
+            <p>iejhvnpotivnochro poi ouhmoczflijavoncin oisoiusc irdutpowv oistgps ojpso wilu</p><br>
+        </div>
+        <div class="list-group-item mt-2 mb-2" id="list-item-2">
+            <h4>Item 1</h4>
+            <img class="float-left mr-2" src="../upload/Physical_graffiti.jpg" alt="Led Zeppelin, Physical Graffiti record" style="width:20%">
+            <p>iejhvnpotivnochro poi ouhmoczflijavoncin oisoiusc irdutpowv oistgps ojpso wilu</p><br>
+        </div>
+       
+      </div>
+    </div>
+</body>

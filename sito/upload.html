@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta name="author" content="Paolo Pietrelli, Luca Spinosi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+        <title>MyEcommerce - Home</title>
+
+        <meta charset="utf-8">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+</html>
+
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+
+    
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <H1 class="navbar-header text-white mr-4">Music Shop</H1>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/><path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/></svg> Home<span class="sr-only glyphicon glyphicon-home">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg> Profilo</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg> Team</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2v13h1V2.5a.5.5 0 0 0-.5-.5H11zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/></svg> Login</a>
+        </li>
+        <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2v13h1V2.5a.5.5 0 0 0-.5-.5H11zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/></svg> Login</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16"><path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/><path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/></svg> Registrati</a>
+        </div>
+        </li>-->
+    </ul>
+    
+    </div>
+        
+    <div class="btn-group dropleft float-right">
+        <button class="btn btn-outline-light dropdown-toggle m-2" type="button" id="cart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg></button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-item">
+                <img class="float-left mr-2" src="../upload/Physical_graffiti.jpg" alt="Led Zeppelin, Physical Graffiti record" style="width:20%">
+                <p>Led Zeppelin, Physical Graffiti</p>
+                <p>23,50€</p>
+                <button class="btn btn-danger fa fa-close">x</button>
+            </div>
+            <div class="dropdown-item">
+                <img class="float-left mr-2" src="../upload/Physical_graffiti.jpg" alt="Led Zeppelin, Physical Graffiti record" style="width:20%">
+                <p>Led Zeppelin, Physical Graffiti</p>
+                <p>23,50€</p>
+                <button class="btn btn-danger fa fa-close">x</button>
+            </div>
+        </div>
+    </div>
+</nav>
+<body>
+
+    <!--pagina-->
+    <div class="col-12 row">
+
+        <!--prodotti magazzino-->
+        <section  class="col-12 col-md-8 col-xl-8">
+    
+            <!-- prodotti -->
+            <div class="mb-3 pt-4">
+            
+                <h2 class="mb-4">Magazzino (<span>2</span> articoli)</h2>
+    
+                <div class="row mb-4">
+                    <div class="col-md-5 col-lg-3 col-xl-3">
+                        <div class="mb-3">
+                            <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqm4M0i67scElMT2zNfGHy7oy4caf-FTTewQ&usqp=CAU" alt="album Physical graffiti">
+                            <div class="dropzone">
+                                <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" alt=""/>
+                                <input type="file" class="upload-input"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-9 col-xl-9">
+                        <div class="row">
+                            
+                            <div class="col-8">
+
+                                <div class="form-group">
+                                    <label for="titolo articolo">Titolo articolo</label>
+                                    <input type="text" class="form-control form-control-lg" id="titolo articolo" value="Led Zeppelin, Physical Graffiti">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Descrizione prodotto">Descrizione prodotto:</label>
+                                    <textarea class="form-control" id="Descrizione prodotto" rows="3">2LP set, on 180-gram vinyl in an exact replica sleeve. Remastered in 2015! Epic 1975 album includes 'Kashmir' and 'Black Country Woman'.</textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="LinkImmagine">Link a immagine</label>
+                                    <input type="text" class="form-control" id="LinkImmagine" name="LinkImmagine" value="">
+                                </div>
+
+                                <div class="align-items-center">    
+                                    <a href="#!" type="button" class="small text-uppercase text-danger mr-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16"><path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/></svg> cancella prodotto</a>    
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-4">
+                                <p class="pt-3"><span><strong id="quantità">Quantità</strong></span></p>
+
+                                <div class="input-group">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="input-group-prepend bg-primary text-white">-</button>
+                                    <label class="d-none" for="quantity">Quantità</label>
+                                    <input class="text" type="number" id="quantity" name="quantity" min="0" value="1">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="bg-primary text-white input-group-append">+</button>                                 
+                                </div>
+
+                                <div class="form-group pt-1">
+                                    <div class="input-group">
+                                        <label for="prezzo">prezzo prodotto €: </label>
+                                        <input type="value" class="text" id="prezzo" name="prezzo" value="23,50">
+                                    </div>
+                                </div>
+
+                                <div class="pt-4">
+                                    <button class="btn btn-primary" type="button" id="invio modifiche">Invio modifiche</button>
+                                </div> 
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="mb-4">
+
+                <div class="row mb-4">
+                    <div class="col-md-5 col-lg-3 col-xl-3">
+                        <div class="mb-3">
+                            <img class="w-100" src="../upload/Beggars_banquet.jpg" alt="album Beggars banquet">
+                            <div class="dropzone">
+                                <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" alt=""/>
+                                <input type="file" class="upload-input"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-9 col-xl-9">
+                        <div class="row">
+                            
+                            <div class="col-8">
+
+                                <div class="form-group">
+                                    <label for="titolo articolo">Titolo articolo</label>
+                                    <input type="text" class="form-control form-control-lg" id="titolo articolo" value="Beggars banquet, Rolling Stones">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Descrizione prodotto">Descrizione prodotto:</label>
+                                    <textarea class="form-control" id="Descrizione prodotto" rows="3">Beggars Banquet is the 10th studio album by English rock band the Rolling Stones. Released in December 1968 by Decca Records in the United Kingdom and London Records in the United States, it is the band's seventh British and ninth American studio album.</textarea>
+                                </div>
+
+                                <div class="align-items-center">
+                                    
+                                    <a href="#!" type="button" class="small text-uppercase text-danger mr-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16"><path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/></svg> cancella prodotto</a>    
+                                     
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-4">
+                                <p class="pt-3"><span><strong id="quantità">Quantità</strong></span></p>
+
+                                <div class="input-group">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="input-group-prepend bg-primary text-white">-</button>
+                                    <label class="d-none" for="quantity">Quantità</label>
+                                    <input class="text" type="number" id="quantity" name="quantity" min="0" value="1">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="bg-primary text-white input-group-append">+</button>                                 
+                                </div>
+
+                                <div class="form-group pt-1">
+                                    <div class="input-group">
+                                        <label for="prezzo">prezzo prodotto €: </label>
+                                        <input type="value" class="text" id="prezzo" name="prezzo" value="35,99">
+                                    </div>
+                                </div>
+
+                                <div class="pt-4">
+                                    <button class="btn btn-primary" type="button" id="invio modifiche">Invio modifiche</button>
+                                </div> 
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <hr class="mb-4">
+
+                <div class="row mb-4">
+
+                    <div class="col-md-5 col-lg-3 col-xl-3">
+                        <div class="mb-3">
+                            <img class="w-100" src="data:image/png;base64,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" alt="picture empty">
+                            <div class="dropzone">
+                                <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" alt=""/>
+                                <input type="file" class="upload-input"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 col-lg-9 col-xl-9">
+                        <div class="row">
+                            
+                            <div class="col-8">
+
+                                <div class="form-group">
+                                    <label for="titolo articolo">Titolo articolo</label>
+                                    <input type="text" class="form-control form-control-lg" id="titolo articolo" placeholder="Nome prodotto">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Descrizione prodotto">Descrizione prodotto:</label>
+                                    <textarea class="form-control" id="Descrizione prodotto" rows="3" placeholder="inserisci qui la descrizione del tuo prodotto"></textarea>
+                                </div>
+
+                                <div class="align-items-center">
+                                    
+                                    <a href="#!" type="button" class="small text-uppercase text-danger mr-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16"><path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/></svg> cancella prodotto</a>    
+                                     
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-4">
+
+                                <p class="pt-3"><span><strong id="quantità">Quantità</strong></span></p>
+
+                                <div class="input-group">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="input-group-prepend bg-primary text-white">-</button>
+                                    <label class="d-none" for="quantity">Quantità</label>
+                                    <input class="text" type="number" id="quantity" name="quantity" min="0" value="0">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="bg-primary text-white input-group-append">+</button>                                 
+                                </div>
+
+                                <div class="form-group pt-1">
+                                    <div class="input-group">
+                                        <label for="prezzo">prezzo prodotto €: </label>
+                                        <input type="value" class="text" id="prezzo" name="prezzo" value="00,00">
+                                    </div>
+                                </div>
+
+                                <div class="pt-4">
+                                    <button class="btn btn-primary" type="button" id="Inserisci prodotto" name="Inserisci prodotto">Inserisci prodotto</button>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- prodotti -->
+    
+            
+        </section>
+        <!--prodotti magazzino-->
+
+        <!--ordini-->
+        <aside class="col-12 col-md-4 col-xl-4 pt-2">
+
+            <!--tabella ordini-->
+            
+            <div class="mb-3 pt-4">
+
+                <h5 class="mb-3">ORDINI</h5>
+    
+                
+                <table summary="Nella tabella vengono visualizzati gli ordini effettuati dai clienti. Ogni riga identifica l'ordine tramite Id ordine, Id cliente, totale spesa e data. Inoltre facendo click sulla riga relativa a un ordine si aprirà una tabella sottostante contente i suoi dettagli" class="table table-striped">
+                    <caption class="d-none">ORDINI</caption>
+                    <thead class="thead-dark">
+                        <tr>
+                        <th scope="col">ID Ordine</th>
+                        <th scope="col">ID Cliente</th>
+                        <th scope="col">Totale Spesa</th>
+                        <th scope="col">Data</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text">
+                        <tr data-toggle="collapse" data-target="#ordine1" class="accordion-toggle">
+                            <th scope="row">1</th>
+                            <td>13</td>
+                            <td>48,00€</td>
+                            <td>1/1/2021</td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" class="hiddenRow">
+                                <div class="accordian-body collapse" id="ordine1"> 
+                                    <table summary="Nella tabella vengono visualizzati i dettagli dell'ordine del cliente. Ogni riga identifica il prodotto ordinato tramite id, nome, quantità, prezzo al singolo e prezzo totale quantità per prodotto" class="table table-striped">
+                                        <caption class="d-none">DETTAGLI ORDINE</caption>
+                                        <thead>
+                                            <tr class="info">
+                                                <th scope="col">ID Prodotto</th>
+                                                <th scope="col">Nome Prodotto</th>
+                                                <th scope="col">Quantità</th>
+                                                <th scope="col">Prezzo singolo</th>		
+                                                <th scope="col">Prezzo totale</th>	
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td scope="row">21</td>
+                                                <td>Led zeppelin I</td>
+                                                <td>2</td>
+                                                <td>24,00€</td>
+                                                <td>48,00€</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-toggle="collapse" data-target="#ordine2" class="accordion-toggle">
+                            <th scope="row">2</th>
+                            <td>3</td>
+                            <td>15€</td>
+                            <td>2/1/2021</td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" class="hiddenRow">
+                                <div class="accordian-body collapse" id="ordine2"> 
+                                    <table summary="Nella tabella vengono visualizzati i dettagli dell'ordine del cliente. Ogni riga identifica il prodotto ordinato tramite id, nome, quantità, prezzo al singolo e prezzo totale quantità per prodotto" class="table table-striped">
+                                        <caption class="d-none">DETTAGLI ORDINE</caption>
+                                        <thead>
+                                            <tr class="info">
+                                                <th scope="col">ID Prodotto</th>
+                                                <th scope="col">Nome Prodotto</th>
+                                                <th scope="col">Quantità</th>
+                                                <th scope="col">Prezzo singolo</th>		
+                                                <th scope="col">Prezzo totale</th>	
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td scope="row">21</td>
+                                                <td>Beggars banquet, Rolling Stones</td>
+                                                <td>1</td>
+                                                <td>15,00€</td>
+                                                <td>15,00€</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-toggle="collapse" data-target="#ordine3" class="accordion-toggle">
+                            <th scope="row">3</th>
+                            <td>1</td>
+                            <td>11€</td>
+                            <td>2/1/2021</td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" class="hiddenRow">
+                                <div class="accordian-body collapse" id="ordine3"> 
+                                    <table summary="Nella tabella vengono visualizzati i dettagli dell'ordine del cliente. Ogni riga identifica il prodotto ordinato tramite id, nome, quantità, prezzo al singolo e prezzo totale quantità per prodotto" class="table table-striped">
+                                        <caption class="d-none">DETTAGLI ORDINE</caption>
+                                        <thead>
+                                            <tr class="info">
+                                                <th scope="col">ID Prodotto</th>
+                                                <th scope="col">Nome Prodotto</th>
+                                                <th scope="col">Quantità</th>
+                                                <th scope="col">Prezzo singolo</th>		
+                                                <th scope="col">Prezzo totale</th>	
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td scope="row">21</td>
+                                                <td>Led Zeppelin, Physical Graffiti</td>
+                                                <td>1</td>
+                                                <td>11,00€</td>
+                                                <td>11,00€</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            
+            <!-- tabella ordini -->
+
+        </aside>
+        <!--ordini-->
+
+    </div>
+    <!-- cart -->
+
+</body>
+
+<style>
+    .upload-icon {
+        margin: 25px 2px 2px 2px;
+    }
+    .upload-input {
+    position: relative;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    }
+
+    .hiddenRow {
+        padding: 0 !important;
+    }
+    
+    table {
+        font-size: 12px;
+    }
+</style>
+
+<style>
+    div.number-input{
+        font-size: 12px;
+    }
+    input.quantity{
+        position: relative;
+        width: 30%;
+        height: 50%;
+    }
+    input#quantity{
+        position: relative;
+        width: 30%;
+        height: 50%;
+    }
+    input#prezzo{
+        position: relative;
+        width: 50%;
+        height: 50%;
+    }
+    div.input-group>button{
+        height: 27px;
+    }
+</style>
+
+<script>
+   
+</script>

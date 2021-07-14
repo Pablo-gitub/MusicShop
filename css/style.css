@@ -1,0 +1,179 @@
+#items{
+    height: 50px;
+}
+
+nav > h1{
+    font-size: 26px;
+}
+
+#filters{
+    font-size: 12px;
+}
+
+#filters > h2{
+    font-size: 15px;
+}
+
+fieldset > legend{
+    font-size: 18px;
+}
+
+.list-group > div > div{
+    font-size: 18px;
+}
+
+.list-group > div > div > h1{
+    font-size: 23px;
+}
+
+.list-group > div > div > h2{
+    font-size: 25px;
+}
+
+#loginSealer, #loginClient{
+    font-size: 20px;
+} 
+
+
+#inputGroupSelect01{
+    font-size: 11px;
+}
+
+
+
+
+
+/* sizing testo prodotti */
+div.input-group{
+    font-size: 14px;
+}
+
+div.col-4 > div.input-group{
+    font-size: 16px;
+}
+
+input[name=quantity]{
+    -moz-appearance: textfield;
+}
+
+input.quantity{
+    -moz-appearance: textfield;
+    position: relative;
+    width: 30%;
+    height: 50%;
+}
+
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+input#prezzo{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+div.input-group>button{
+    height: 27px;
+}
+
+div.row>div.input-group>.text{
+    position: relative;
+    width: 30%;
+    height: 50%;
+}
+
+div.col-4>div.input-group>.text{
+    position: relative;
+    width: 30%;
+    height: 50%;
+}
+
+div.float-right>div.input-group>.text{
+    position: relative;
+    width: 30%;
+}
+
+div.input-group:nth-child(3)>.text{
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+
+#itemProfile > h1{
+    font-size: 23px;
+}
+
+#itemProfile > h2{
+    font-size: 25px;
+}
+
+#itemProfile > p{
+    font-size: 17px;
+}
+
+#itemCart > h1{
+    font-size: 23px;
+}
+
+#itemCart > h2{
+    font-size: 25px;
+}
+
+#itemCart > p{
+    font-size: 17px;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50vw;
+    right: 50vw;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.3s, fadeout 0.2s 0.9s;
+    animation: fadein 0.3s, fadeout 0.2s 0.8s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+
+
+td.hiddenRow {
+    padding: 0 !important;
+}
+
+table {
+    font-size: 12px;
+}
